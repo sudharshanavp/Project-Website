@@ -38,6 +38,12 @@ body{
     color: rgb(17, 17, 17);
 }
 
+.nav-bar a:hover{
+    color: rgb(2, 2, 255);
+    transition: .3s ease-in;
+    transition-delay: .1s;
+}
+
 /*Home Banner Intro */
 
 .grid-container-home{
