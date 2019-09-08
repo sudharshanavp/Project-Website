@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 html{
-    margin: 0;
-    padding: 0;
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box;
 }
 
 
@@ -14,12 +15,14 @@ html{
 
 body{
     font-family: IBM Plex Sans, sans-serif;
+    margin:0;
 }
 
 /*Navigation Bar*/
 
 .nav-bar{
     text-align: right;
+    margin-top: 2.5%;
 }
 
 .nav-bar li{
@@ -85,8 +88,85 @@ body{
 
 /* Wanna Hire Us? section */ 
 
+.grid-container-pricing{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item-pricing h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+/* Portfolio */
+
+.grid-container-portfolio-1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.grid-container-portfolio-2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.grid-item-portfolio h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.grid-item-portfolio p{
+    width: 90%;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.home-portfolio{
+    margin-bottom:2.5%;
+}
+
+
 
 /* Footer section */ 
 
+.row-3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+
+.grid-container-footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-footer h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.grid-item-footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.grid-item-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.grid-item-footer p{
+    font-size: 20px;
+}
 
 
