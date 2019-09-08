@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* container */
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: IBM Plex Sans, sans-serif;
+}
+
+/*Navigation Bar*/
+
+.nav-bar{
+    text-align: right;
+}
+
+.nav-bar li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+}
+
+/*Home Banner Intro */
+
+.grid-container-home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item-home h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: auto;
+
+}
+
+.grid-item-home p{
+    width: 100%;
+    font-size: 24px;
+}
+
+/*Services Section */
+
+.head h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.head p{
+    width: 100%;
+    font-size: 24px;
+}
+
+.grid-container-services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.service h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.service p{
+    width: 80%;
+    font-size: 22px;
+}
+
+/* Wanna Hire Us? section */ 
+
+
+/* Footer section */ 
+
+
+
