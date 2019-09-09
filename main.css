@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
 html{
     margin: 0!important;
     padding: 0!important;
-    box-sizing: border-box;
 }
 
 
@@ -20,14 +20,26 @@ body{
 
 /*Navigation Bar*/
 
-.nav-bar{
-    text-align: right;
-    margin-top: 2.5%;
+.main-menu-nav ul{
+    display: flex;
+    padding-left: 0;
 }
 
-.nav-bar li{
-    text-decoration: none;
-    display: inline-block;
+.main-menu-nav li{
+    flex: 0 0 auto;
+}
+
+.main-menu-nav li:nth-child(1){
+    margin-right: auto;
+}
+
+#logo{
+    margin-left: 0px !important;
+}
+
+.nav-bar{
+    margin-top: 2.5%;
+    list-style: none;
 }
 
 .nav-bar a{
@@ -39,31 +51,92 @@ body{
 }
 
 .nav-bar a:hover{
-    color: rgb(2, 2, 255);
-    transition: .3s ease-in;
+    color: rgb(105, 105, 255);
+    border-bottom: 2px solid rgb(105, 105, 255);
+    transition: .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-delay: .1s;
+}
+
+.nav-bar a.active{
+    color: rgb(105, 105, 255);
+    border-bottom: 2px solid rgb(105, 105, 255);
 }
 
 /*Home Banner Intro */
 
-.grid-container-home{
-    display: grid;
-    grid-template-columns: 50% 50%;
+.container.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.grid-item-home h1{
-    font-size: 56px;
+.flex-item-home{
+    margin-left:auto;
+}
+
+.flex-item-home button{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 6px;
+    border: 3px solid black;
+    background-color: white; 
+    text-decoration: none;
+    color: black;
+}
+
+.flex-item-home button:hover{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 6px;
+    background-color: black; 
+    color: white;
+    transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    cursor: pointer;
+}
+
+.flex-container-home{
+    display: flex;
+    align-items: center;
+}
+
+.flex-item-home h1{
+    font-size: 72px;
     font-weight: 700;
     margin-bottom: auto;
 
 }
 
-.grid-item-home p{
+.flex-item-home p{
+    width: 80%;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.flex-item-home img{
+    height: 100%;
     width: 100%;
-    font-size: 24px;
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 /*Services Section */
+
+.grid-item-services{
+    padding-left: 20px;
+}
+
+a.lserv{
+    text-decoration: none;
+    color: black;
+}
+
+.service:hover a.lserv{
+    color: mediumpurple;
+    transition: .4s;
+    cursor: pointer;
+}
 
 .head h1{
     font-size: 56px;
@@ -78,63 +151,54 @@ body{
 
 .grid-container-services{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:33% 33% 33%;
+    grid-column-gap: 2.5%;
+    grid-row-gap: 2.5%;
 }
 
 .service h4{
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: auto;
 }
 
 .service p{
-    width: 80%;
-    font-size: 22px;
-}
-
-/* Wanna Hire Us? section */ 
-
-.grid-container-pricing{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.grid-item-pricing h4{
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: auto;
-}
-
-/* Portfolio */
-
-.grid-container-portfolio-1{
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
-
-.grid-container-portfolio-2{
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.grid-item-portfolio h4{
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: auto;
-}
-
-.grid-item-portfolio p{
     width: 90%;
     font-size: 22px;
-    text-align: justify;
+    text-align: justify
 }
+
+/* Interested? section */ 
+
+.container-pricing{
+}
+
+.contact-form > input, textarea{
+    display: block;
+    margin-top: 3%;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 24px;
+    resize: vertical;
+}
+
+.item-pricing{
+
+}
+
+.item-pricing h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+
+
+/* Portfolio */
 
 
 .home-portfolio{
     margin-bottom:2.5%;
 }
-
-
 
 /* Footer section */ 
 

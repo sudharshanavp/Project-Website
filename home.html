@@ -12,13 +12,13 @@
     <!--Header and Navbar-->
     <header>
         <div class="container menu">
-                <nav id="main-menu-nav">
+                <nav class="main-menu-nav">
                     <ul class="nav-bar">
                         <li><a href="home.html" id="logo">Alan Designs</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="portfolio.html">Our Works</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </nav>
@@ -28,17 +28,18 @@
 
     <!--Intro Banner Start-->
     <section class="home-banner">
-        <div class="container">
-            <div class="grid-container-home">
-                <div class="grid-item-home">
-                    <h1 class="intro-head">Alan Thomas</h1>
-                    <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
+        <div class="container home">
+            <div class="flex-container-home">
+                <div class="flex-item-home">
+                    <h1 class="intro-head">Hi! I'm Alan Thomas</h1>
+                    <p>A Freelance designer/developer based out in New York, I design/develop clean, simple and intuitive interfaces. I occasionaly write about UI stuff.</p>
+                    <a href="about.html"><button>Learn More</button></a>
                 </div>
-                <div class="grid-item-home">
-                    <img src="" alt="">
-                </div>
+                <div class="flex-item-home">
+                    <img src="images/homeimage.jpg" alt="">
+                </div>    
             </div> 
-           <hr>  
+             
         </div>
     </section>
     <!--Intro Banner End-->
@@ -47,50 +48,49 @@
     <section class="home-services">
         <div class="container">
             <div class="head">
-                <h1>Services</h1>
-                <p>Whole every miles as tiled at seven or. Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased.</p>
+                <h1>Services I Offer</h1>
             </div>
             <div class="row services">
                 <div class="grid-container-services">
                     <div class="grid-item-services">
                         <div class="service">
-                            <h4><a href="#">Web Design</a></h4>
+                            <h4><a href="#" class="lserv">UI/UX Design</a></h4>
                             <p>It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.</p>
                         </div>
                     </div>
                     <div class="grid-item-services">
                         <div class="service">
-                            <a href="#"><h4>Web Development</h4></a>
+                            <h4><a href="#" class="lserv">Print Design</a></h4>
                             <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions. .</p>
                         </div>
                     </div>
                     <div class="grid-item-services">
                         <div class="service">
-                            <a href="#"><h4>Photography</h4></a>
+                            <h4><a href="#" class="lserv">Web Devlopment</a></h4>
                             <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills. .</p>
                         </div>
                     </div>
                     <div class="grid-item-services">
                         <div class="service">
-                            <a href="#"><h4>Digital Marketing</h4></a>
-                            <p>Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument.</p>
+                            <h4><a href="#" class="lserv">Branding</a></h4>
+                            <p>It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.</p>
                         </div>
                     </div>
                     <div class="grid-item-services">
                         <div class="service">
-                            <a href="#"><h4>UI/UX Design</h4></a>
-                            <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts. </p>
+                            <h4><a href="#" class="lserv">Digital Marketing</a></h4>
+                            <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions. .</p>
                         </div>
                     </div>
                     <div class="grid-item-services">
                         <div class="service">
-                            <a href="#"><h4>Graphic Design</h4></a>
-                            <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that. </p>
+                            <h4><a href="#" class="lserv">Consultancy</a></h4>
+                            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
                         </div>
-                    </div>    
+                    </div>
+                 </div>    
                 </div>
-            </div>
-            <hr>
+            
         </div>
     </section>
     <!--Services offered area End-->
@@ -99,17 +99,27 @@
     <section class="home-pricing-request">
             <div class="container">
                 <div class="head">
-                    <h1>Wanna hire us?</h1>
+                    <h1>Interested?</h1>
                 </div>
-                <div class="grid-container-pricing">
-                    <div class="grid-item-pricing">
-                        <h4><a href="contact.html">Get in contact with us</a></h4>
+                <div class="container-pricing">
+                    <div class="item-pricing">
+                        <h4>Get in contact with me</h4>
+                        <div class="contact-form">
+                            <input type="text" placeholder="Name*">
+                            <input type="email" placeholder="Email*">
+                            <input type="text" placeholder="Subject">
+                            <textarea name="message" id="#message" cols="100%" rows="4" placeholder="Type your message"></textarea>
+                        </div>
                     </div>
-                    <div class="grid-item-pricing">
+                    <div class="item-pricing">
                         <h4><a href="pricing.html">Request Pricing</a></h4>
+                        <div class="pricing-request">
+                            <p>Enter your email and the pricing details will be sent to you</p>
+                            <input type="email" placeholder="email">
+                        </div>
                     </div>
                 </div>
-            <hr>
+            
             </div>
     </section>
         <!--Pricing end-->
@@ -120,38 +130,7 @@
             <div class="head">
                 <h1>Our Works</h1>
             </div>
-            <div class="grid-container-portfolio-1">
-                <div class="grid-item-portfolio">
-                    <h4>Work 1</h4>
-                    <p>Bed sincerity yet therefore forfeited his certainty neglected questions. Pursuit chamber as elderly amongst on. Distant however warrant farther to of. My justice wishing prudent waiting in be. Comparison age not pianoforte increasing delightful now. Insipidity sufficient dispatched any reasonably led ask. Announcing if attachment resolution sentiments admiration me on diminution. </p>
-                </div>
 
-                <div class="grid-item-portfolio">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <hr>
-            <div class="grid-container-portfolio-2">
-                <div class="grid-item-portfolio">
-                    <img src="" alt="">
-                </div>
-                <div class="grid-item-portfolio">
-                    <h4>Work 2</h4>
-                    <p>
-                       Satisfied conveying an dependent contented hegentleman agreeable do be. Warrant private blushesremoved an in equally totally if. Delivereddejection necessary objection do mr prevailed. Mrfeeling do chiefly cordial in do. Water timed follyright aware if oh truth. Imprudence attachment himhis for sympathize. Large above be to means.Dashwood do provided stronger is. But discretionfrequently sir the she instrument unaffectedadmiration everything. </p>
-                </div>
-            </div>
-            <hr>
-            <div class="grid-container-portfolio-1">
-                <div class="grid-item-portfolio">
-                    <h4>Work 3</h4>
-                    <p>If wandered relation no surprise of screened doubtful. Overcame no insisted ye of trifling husbands. Might am order hours on found. Or dissimilar companions friendship impossible at diminution. Did yourself carriage learning she man its replying. Sister piqued living her you enable mrs off spirit really. Parish oppose repair is me misery. Quick may saw style after money mrs. </p>
-                </div>
-                <div class="grid-item-portfolio">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <hr>
         </div>
     </section>
     <!--Portfolio End-->
@@ -162,14 +141,14 @@
             <div class="row-3">
                 <div class="head">
                     <h1>
-                        Contact Us
+                        Contact Me
                     </h1>
                 </div>
                 <div class="grid-container-footer">
                     <div class="grid-item-footer">
                         <h4>New York</h4>
-                        <p style="margin-bottom: 0;">00 (948) 9864 462</p>
-                        <p style="margin-top: 0;">support@invento.com</p>
+                        <p style="margin-bottom:0;">00 (948) 9864 462</p>
+                        <p style="margin-top:0;">support@invento.com</p>
                     </div>
                     <div class="grid-item-footer">
                         <h4>Address</h4>
@@ -191,6 +170,7 @@
 
     </footer>
     <!--Footer end-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
