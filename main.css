@@ -78,7 +78,7 @@ body{
     font-family: IBM Plex Sans, sans-serif;
     font-size: 28px;
     font-weight: 700;
-    padding: 6px;
+    padding: 10px 8px;
     border: 3px solid black;
     background-color: white; 
     text-decoration: none;
@@ -90,6 +90,7 @@ body{
     font-size: 28px;
     font-weight: 700;
     padding: 6px;
+    border: 3px solid black;
     background-color: black; 
     color: white;
     transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -165,24 +166,43 @@ a.lserv{
 .service p{
     width: 90%;
     font-size: 22px;
-    text-align: justify
+    text-align: justify;
 }
 
 /* Interested? section */ 
 
-.container-pricing{
-}
-
-.contact-form > input, textarea{
+input, textarea{
     display: block;
-    margin-top: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
     font-family: IBM Plex Sans, sans-serif;
     font-size: 24px;
     resize: vertical;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 100%;
 }
 
-.item-pricing{
+.item-pricing button{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 8px 6px;
+    border: 3px solid black;
+    background-color: white; 
+    text-decoration: none;
+    color: black;
+}
 
+.item-pricing button:hover{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 8px 6px;
+    border: 3px solid black;
+    background-color: white; 
+    text-decoration: none;
+    color: black;
 }
 
 .item-pricing h4{
