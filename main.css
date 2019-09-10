@@ -517,12 +517,7 @@ p.ps{
     cursor: pointer;
 }
 
-.nav-bar a.logo{
-    text-decoration: none;
-    color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-}
-
-.nav-bar a.logo:hover{
-    text-decoration: none;
-    color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+.flex-container-homeport img:hover{
+    filter: blur(10px);
+    transition: .25s ease-in-out
 }

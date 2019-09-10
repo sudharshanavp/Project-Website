@@ -6,3 +6,4 @@ $(".services").click(function() {
 $(".services").mouseover(function () {
     $("p").css('cursor','pointer');    
 });
+
