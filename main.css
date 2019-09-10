@@ -81,19 +81,19 @@ body{
     font-size: 28px;
     font-weight: 700;
     padding: 10px 8px;
-    border: 3px solid black;
+    border: 3px solid #2a2a2a;
     background-color: white; 
     text-decoration: none;
-    color: black;
+    color: #2a2a2a;
 }
 
 .flex-item-home button:hover{
     font-family: IBM Plex Sans, sans-serif;
     font-size: 28px;
     font-weight: 700;
-    padding: 6px;
-    border: 3px solid black;
-    background-color: black; 
+    padding: 10px 8px;
+    border: 3px solid #2a2a2a;
+    background-color: #2a2a2a; 
     color: white;
     transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
     cursor: pointer;
@@ -132,7 +132,7 @@ body{
 
 a.lserv{
     text-decoration: none;
-    color: black;
+    color: #2a2a2a;
 }
 
 .service:hover a.lserv{
@@ -185,7 +185,7 @@ a.lserv{
 }
 
 footer{
-    background-color: black;
+    background-color: #2a2a2a;
     color:white;
 }
 
@@ -279,7 +279,7 @@ p.inner{
 }
 
 .vl{
-    border: 4px solid black;
+    border: 4px solid #2a2a2a;
 }
 
 h1.intro.head.right{
@@ -302,8 +302,12 @@ li.p, p.p{
     font-weight: 400;
 }
 
+.container.contactab{
+    height: 25vh;
+}
+
 .banner.approach{
-    height: 50vh;
+    height: 60vh;
 }
 
 .contact h4{
@@ -312,7 +316,7 @@ li.p, p.p{
 
 .contact > a{
     text-decoration: none;
-    color: black;
+    color: #2a2a2a;
 }
 
 .contact > a:hover{
@@ -324,9 +328,6 @@ li.p, p.p{
 /* Contact Page*/
 
 /* Interested? section */ 
-
-
-
 input, textarea{
     display: block;
     margin-top: 2.5%;
@@ -335,7 +336,7 @@ input, textarea{
     font-size: 24px;
     resize: vertical;
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #2a2a2a;
     width: 100%;
 }
 
@@ -347,7 +348,7 @@ input, textarea{
     border: none;
     background-color: white; 
     text-decoration: none;
-    color: black;
+    color: #2a2a2a;
 }
 
 .item-pricing-2 button:hover{
@@ -356,7 +357,7 @@ input, textarea{
     font-weight: 600;
     padding: .5% 2%;
     border: none;
-    background-color: black; 
+    background-color: #2a2a2a; 
     text-decoration: none;
     color: white;
     transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -384,8 +385,8 @@ p.ps{
 }
 
 .address-flex-item{
-    padding-top: 8%; 
-    padding-bottom: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .address-flex{
@@ -395,6 +396,7 @@ p.ps{
 
 .address-flex h4{
     font-size: 28px;
+    margin-bottom: auto;
 }
 
 .address-flex p{
@@ -406,6 +408,8 @@ p.ps{
     flex-grow: 1;
     margin-top: auto;
     margin-bottom: auto;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .item-pricing-2{
@@ -426,6 +430,7 @@ p.ps{
 
 .container.showcase{
     display: flex;
+    margin-bottom: 2%;
 }
 
 .flex-container-showcase{
@@ -466,4 +471,58 @@ p.ps{
     max-height: 900px;
 }
 
+/* Services Page */
 
+.service-items h2{
+    font-size: 32px;
+}
+
+.service-items p{
+    font-size: 28px;
+    width: 80%;
+}
+
+.container.homeport{
+    margin-bottom: 2%;
+}
+
+.showcase-info h4{
+    font-size: 28px;
+}
+
+.showcase-info p{
+    font-size: 22px;
+}
+
+.button-go{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 8px;
+    border: 3px solid #2a2a2a;
+    background-color: white; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.button-go:hover{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 8px;
+    border: 3px solid #2a2a2a;
+    background-color: #2a2a2a; 
+    color: white;
+    transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    cursor: pointer;
+}
+
+.nav-bar a.logo{
+    text-decoration: none;
+    color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+.nav-bar a.logo:hover{
+    text-decoration: none;
+    color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
