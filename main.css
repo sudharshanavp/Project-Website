@@ -8,7 +8,7 @@ html{
 
 /* container */
 .container{
-    max-width: 1440px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -107,7 +107,7 @@ body{
 .banner h1{
     font-size: 72px;
     font-weight: 700;
-    margin-bottom: auto;
+    
 
 }
 
@@ -169,50 +169,6 @@ a.lserv{
     font-size: 22px;
     text-align: justify;
 }
-
-/* Interested? section */ 
-
-input, textarea{
-    display: block;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 24px;
-    resize: vertical;
-    border: none;
-    border-bottom: 3px solid black;
-    width: 100%;
-}
-
-.item-pricing button{
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    padding: 8px 6px;
-    border: 3px solid black;
-    background-color: white; 
-    text-decoration: none;
-    color: black;
-}
-
-.item-pricing button:hover{
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    padding: 8px 6px;
-    border: 3px solid black;
-    background-color: white; 
-    text-decoration: none;
-    color: black;
-}
-
-.item-pricing h4{
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: auto;
-}
-
-
 
 /* Portfolio */
 
@@ -354,12 +310,6 @@ li.p, p.p{
     font-size: 36px;
 }
 
-.banner.contact{
-    height: 20vh;
-    cursor: pointer;
-
-}
-
 .contact > a{
     text-decoration: none;
     color: black;
@@ -369,4 +319,151 @@ li.p, p.p{
     color: mediumpurple;
     transition: .4s;
 }
+
+
+/* Contact Page*/
+
+/* Interested? section */ 
+
+
+
+input, textarea{
+    display: block;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 24px;
+    resize: vertical;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+.item-pricing-2 button{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding: .5% 2%;
+    border: none;
+    background-color: white; 
+    text-decoration: none;
+    color: black;
+}
+
+.item-pricing-2 button:hover{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding: .5% 2%;
+    border: none;
+    background-color: black; 
+    text-decoration: none;
+    color: white;
+    transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.item-pricing h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+
+p.ps{
+    font-size: 22px;
+}
+
+.banner.contactus{
+    display: flex;
+    height: 100vh;
+
+}
+
+.container-pricing{
+    display: flex;
+}
+
+.address-flex-item{
+    padding-top: 8%; 
+    padding-bottom: 8%;
+}
+
+.address-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.address-flex h4{
+    font-size: 28px;
+}
+
+.address-flex p{
+    font-size: 18px
+}
+
+.item-pricing-1{
+    width: 25%;
+    flex-grow: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.item-pricing-2{
+    flex-grow: 2;
+}
+
+
+/* My Works Page */ 
+
+.container.myworks{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+}
+
+
+/* Portfolio Showcase */
+
+.container.showcase{
+    display: flex;
+}
+
+.flex-container-showcase{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6%;
+}
+
+.grid-nested-container{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    grid-column-gap: 5%;
+}
+
+.grid-nested-container img{
+    height: 100%;
+    width: 100%;
+    max-width: 1600px;
+    max-height: 900px;
+}
+
+.flex-container-homeport{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-homeport{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.flex-item-homeport img{
+    height: 100%;
+    width: 100%;
+    max-width: 1600px;
+    max-height: 900px;
+}
+
 
