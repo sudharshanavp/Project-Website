@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');f
+
+
+h1{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 100vw; 
+}
+
+p{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 30vw;
+}
