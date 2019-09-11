@@ -286,10 +286,6 @@ p.inner{
     margin-left: 20px;
 }
 
-.vl{
-    border: 4px solid #2a2a2a;
-}
-
 h1.intro.head.right{
     writing-mode: vertical-lr;
     margin-bottom: auto;
@@ -536,7 +532,7 @@ p.ps{
       flex-wrap: wrap;  
     }  
       
-    ..nav-bar > li {  
+    .nav-bar > li {  
       flex-basis: 50%;  
     }
   
